@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#cabeca{
+    text-align: center;
+}
+#turmax{
+    background: rgba(229, 165, 229, 0.726);
+    overflow: hidden;
+    display: none;
+    width: max-content;
+}
+table, th, td, tr{
+    border: 2px solid black;
+}
+#turmay{
+    background: rgba(229, 165, 229, 0.726);;
+    overflow: hidden;
+    display: none;
+    width: max-content;
+    
+}
+.abrir{
+    background-color: lightsteelblue;
+    border: 1px solid black;
+    width: 100vh;
+    height: 10vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+}
