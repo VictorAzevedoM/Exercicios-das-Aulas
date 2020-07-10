@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas da turma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" id="forma">
+        <input type="text" placeholder="Nome do aluno" id="nome">
+        <input type="text" placeholder="Nota do primeiro bimestre" id="pbim" maxlength="2">
+        <input type="text" placeholder="Nota do segundo bimestre"  id="sbim" maxlength="2">
+        <input type="text" placeholder="Nota do terceiro bimestre" id="tbim" maxlength="2">
+        <input type="text" placeholder="Nota do quarto bimestre" id="qbim" maxlength="2">
+        <input type="button" value="Calcular nota final" id="calc" onclick="calcular()">
+    </form>
+    <table id="registro">
+        <tr><th>Nome</th>
+            <th>Primeiro Bimeste</th>
+            <th>Segundo Bimestre</th>
+            <th>Terçeiro Bimestre</th>
+            <th>Quarto Bimestre</th>
+            <th>Nota Final</th>
+            <th>Situação</th>
+        </tr>
+      </table>
+
+    <script src="main.js"></script>
+</body>
+</html>
