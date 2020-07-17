@@ -1,0 +1,51 @@
+#forma{
+    display: grid;
+}
+table{
+    width: 1325px;
+}
+table, th,td{
+    border: 3px solid black;
+     
+}
+#calc{
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 75px;
+    font-size: 25px;
+}
+#nome{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 25px;
+}
+#pbim{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 25px;
+}
+#sbim{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 25px;
+}
+#tbim{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 25px;
+}
+#qbim{
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 50px;
+    font-size: 25px;
+}
