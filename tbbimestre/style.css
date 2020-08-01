@@ -1,6 +1,17 @@
 #forma{
     display: grid;
 }
+.expandir{
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 75px;
+    font-size: 25px;
+}
+#turma{
+    overflow: hidden;
+    display: none;
+}
 table{
     width: 1325px;
 }

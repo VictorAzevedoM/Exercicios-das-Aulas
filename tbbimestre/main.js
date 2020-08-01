@@ -1,5 +1,7 @@
 
-var tabela = document.getElementById("registro")
+//Elementos HTML
+const tabela = document.getElementById("registro")
+const expandir = document.getElementsByClassName("expandir")
 
 //função para calcular a nota final
 document.getElementById("calc").addEventListener("click",function calcular(){ 
@@ -57,5 +59,24 @@ if(pbim <=10 && sbim <=10 && tbim <=10 && qbim <=10 )
        alert("Você digitou um valor invalido atualize a página e tente novamente")
    }
 })
+
+//Função para abrir e fechar a tabela de alunos
+for(let i = 0; i<expandir.length; i++){
+    expandir[i].addEventListener('click', function acionar(){
+        let turma = document.getElementById("turma")
+        if(turma.style.display === "block"){
+            turma.style.display = 'none'
+            expandir[i].innerText = "Abrir Tabela da turma"
+        }else{
+            turma.style.display = 'block'
+            expandir[i].innerText = "Fechar tabela da turma"
+        }
+    })
+}
+
+
+
+
+
 
  

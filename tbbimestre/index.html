@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <h1></h1>
     <form action="" id="forma">
         <input type="text" placeholder="Nome do aluno" id="nome">
         <input type="text" placeholder="Nota do primeiro bimestre" id="pbim" maxlength="2">
@@ -15,6 +16,7 @@
         <input type="text" placeholder="Nota do quarto bimestre" id="qbim" maxlength="2">
         <input type="button" value="Calcular nota final" id="calc" onclick="calcular()">
     </form>
+    <section id="turma">
     <table id="registro">
         <tr><th>Nome</th>
             <th>Primeiro Bimeste</th>
@@ -25,7 +27,11 @@
             <th>Situação</th>
         </tr>
       </table>
+     </section>
+     <button type="button"  class="expandir" onclick="acionar()">Abrir Tabela da turma</button>
 
     <script src="main.js"></script>
 </body>
 </html>
+
+
