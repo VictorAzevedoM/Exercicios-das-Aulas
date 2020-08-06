@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background: url("./novazel.jpeg") no-repeat center center/cover;
+    min-height: 100vh;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+#Cadastro{
+    border-radius: 25%;
+    background-color: whitesmoke;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 250px;
+    margin: auto;
+    position: relative;
+}
+
+#Finalizar{
+    margin-top: 40px;
+    margin-left: 25px;
+    position: relative;
+    width: 200px;
+}
+h4{
+    margin-left: 40px;
+    
+}
+p{
+     margin-left: 20px;
+    position: relative;
+}
+.dados{
+    margin-left: 20px;
+    position: relative;
+    
+}
+.race{
+   
+    margin-left: 75px;
+    position: relative;
+    
+}
+
+#Final{
+    background-color: whitesmoke;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    position: relative;
+
+}

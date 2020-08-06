@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Um anel</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <a href="./about.html">Clique aqui</a>
+    <form action="" id= "Cadastro">
+        <h4>Cadastro para fabricação de anel personalizado:</h4>
+        <input type="text" placeholder="Nome" class= "dados"><br>
+        <input type="text" placeholder="Reino" class = "dados">
+
+        <p>Por favor escolha sua raça:</p>
+        <input type="radio" id="Humano" name= "raça" class = "race">
+        <label for="Humano">Humano</label><br>
+        <input type="radio" id="Elfo" name= "raça" class = "race">
+        <label for="Elfo">Elfo</label><br>
+        <input type="radio" id="Anão" name= "raça" class = "race">
+        <label for="Anão">Anão</label><br>
+
+        <input type="button" value="Finalizar Cadastro" id="Finalizar">
+
+    </form><br>
+    <section id = "Final">
+    <p>Conheça um pouco mais sobre a iniciativa:</p>
+    <button id= "Sobre">Clique aqui</button>
+    </section>
+    <script src="index.js"></script>
 </body>
 </html>
